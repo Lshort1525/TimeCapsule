@@ -1,0 +1,107 @@
+  
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+body{
+    background-color: black;
+    color: antiquewhite;
+    font-family: "Cinzel Decorative";
+    font-weight: 700;
+    margin: 0;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav {  
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #822F49;
+  display: flex; 
+  text-transform: uppercase;
+  padding: 25px;
+  justify-content: space-evenly; 
+  font-size: larger;
+  position:sticky;
+  top: 0%;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .8);
+} 
+nav a:hover {
+background-color: antiquewhite;
+color:#822F49
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+section {
+    background-color: #822F49;
+    margin: 55px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: .5% white, solid;
+    padding: 50px;
+    image-orientation: auto;
+}
+
+.image {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll, fixed;
+    position: auto;
+    height: auto;
+    width: 100%;
+    }
+
+    div {
+      background-image: url(../img/curve\ adjustment\ flowers.jpg);
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-size: cover;
+    }
+    
+
